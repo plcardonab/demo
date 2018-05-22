@@ -1,0 +1,13 @@
+#!bin/bash
+#Sctipt de Arranque 
+#chkconfig: 3 51 02
+#description: Servicio
+ PID_PATH_NAME=/tmp/demonioFile-pid
+		 
+
+	if [ ! -f $PID_PATH_NAME ]; then
+	  
+	else 
+          rm $PID_PATH
+	fi 
+
